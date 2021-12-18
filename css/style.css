@@ -256,7 +256,7 @@ ul{
 }
 
 /* this will change the form of the website when you are on a phone */
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 372px){
 
     nav img{
         /* this will adjust the logo to the middle of the page */
@@ -265,8 +265,24 @@ ul{
 
     .imgtext{
         /* this makes the text display in the middle of the overlay */
-        margin-top: 10%;
+        margin-top: 6em;
+        font-size: small;
         text-align: center;
     }
 
+    .container1 img{
+        width: 100%;
+    }
+
+    .imgcontainer2{
+        width: 90%;
+    }
+
+    .container2{
+        font-size: small;
+    }
+
+    .imgcontainer{
+        width: 100%;
+    }
 }
